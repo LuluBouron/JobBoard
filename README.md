@@ -33,7 +33,7 @@ Notre modèle de données est composé de 3 entités:
 ### Mise en place de Tailwind CSS (via CDN)
 
 ### Conclusions
-J'ai pu créer un formulaire avec Symfony d'abord manuellement puis avec le 'Builder' au sein du contrôleur
+- J'ai pu créer un formulaire avec Symfony d'abord manuellement puis avec le 'Builder' au sein du contrôleur
 puis en externalisant le formulaire dans un fichier dédié
-J'ai vu comment traiter le formulaire après soumission en respectant les bonnes pratiques de Symfony avec la notion de CSRF
+- J'ai vu comment traiter le formulaire après soumission en respectant les bonnes pratiques de Symfony avec la notion de CSRF
 
