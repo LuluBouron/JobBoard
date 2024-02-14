@@ -51,6 +51,7 @@ Notre modèle de données est composé de 3 entités:
 - Cela va  permettre de créer des formulaires très rapidement et de manière très sécurisée.
 - Création d'un formulaire pour créer une offre. Pour cela, utilisation du FormBuilder.
 
+
 ### Conclusions
 - J'ai pu créer un formulaire avec Symfony d'abord manuellement puis avec le 'Builder' au sein du contrôleur
 puis en externalisant le formulaire dans un fichier dédié
