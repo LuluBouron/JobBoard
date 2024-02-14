@@ -1,0 +1,10 @@
+ <div class="shadow-xl p-4 m-5">
+                <a href="{{ path('app_job_show', {'id': offre.id}) }}"><h1><strong>{{ offre.nom }}</strong> ({{ offre.salaire }} €)</h1> 
+                <p>{{ offre.description }}</p>
+                    <p class="py-2">Service : {{ offre.service.nom }}</p>   
+            
+            {% for tag in offre.tags %}
+                <span class="inline-flex items-center rounded-full bg-yellow-100 p-2 py-0.5 text-sm font-medium text-yellow-800"> 
+                {{ tag.nom }}</span> 
+            {% endfor %}
+    </div>

@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}  
+    
+{% block body %}
+
+<div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4">
+<h1 class="text-4xl text-center">{{ offre.nom }}</h1> </div>
+
+<div class="container mx-auto px-4"> 
+  {% include 'job/_offre.html.twig' %}
+
+<a href="{{ path('app_job') }}"> Retour à la liste
+
+</div>
+{% endblock %}
+
+
+
+
+

@@ -2,7 +2,15 @@
     
 
 {% block title %}Job Board{% endblock %}    
+    
     {% block body %}
-        <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4">
-            <h1 class="text-4xl text-center">Job Board</h1> </div>
-    {% endblock %}
+    <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4">
+        <h1 class="text-4xl text-center">Job Board</h1> </div>
+    
+    
+        <div class="container mx-auto px-4"> 
+        {% for offre in offres %}
+            {% include 'job/_offre.html.twig' %}
+        {% endfor %}
+</div>
+{% endblock %}

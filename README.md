@@ -32,6 +32,25 @@ Notre modèle de données est composé de 3 entités:
 
 ### Mise en place de Tailwind CSS (via CDN)
 
+### Création des fixtures
+- orm-fixtures
+- fakerphp/faker
+
+
+### Affichage de nos Offres
+
+- #[Route('/', name: 'app_job')]
+
+### Affichage d'une seule offre
+
+- #[Route('/', name: 'app_job')]
+
+### Création d’un formulaire avec le FormBuilder
+
+- Symfony nous permet de créer des formulaires de manière très simple. Pour cela, nous allons utiliser le composant Form.
+- Cela va  permettre de créer des formulaires très rapidement et de manière très sécurisée.
+- Création d'un formulaire pour créer une offre. Pour cela, utilisation du FormBuilder.
+
 ### Conclusions
 - J'ai pu créer un formulaire avec Symfony d'abord manuellement puis avec le 'Builder' au sein du contrôleur
 puis en externalisant le formulaire dans un fichier dédié
