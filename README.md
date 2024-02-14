@@ -17,13 +17,13 @@ Notre modèle de données est composé de 3 entités:
 - Offre Service Tag
 
 ###  Création des entités
-Créer l'entité Tag :
+- Créer l'entité Tag :
     > nom, string, 255, not null
-Créer l'entité Service :
+- Créer l'entité Service :
     > nom, string, 255, not null
     > telephone, string, 255, not null
     > email, string, 255, not null
-Créer l'entité Offre :
+- Créer l'entité Offre :
     > nom, string, 255, not null
     > description, text, not null
     > salaire, decimal, 6, 2, not null
