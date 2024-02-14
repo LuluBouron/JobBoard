@@ -43,7 +43,7 @@ Notre modèle de données est composé de 3 entités:
 
 ### Affichage d'une seule offre
 
-- #[Route('/', name: 'app_job')]
+- #[Route('/show/{id}', name: 'app_job_show')]
 
 ### Création d’un formulaire avec le FormBuilder
 
